@@ -31,7 +31,12 @@
   .config button:hover { filter:brightness(0.97); }
 
   /* ===== App shell ===== */
-  .app { min-width:1280px; }
+  .app {
+    min-width: 1280px;
+    transform: scale(1.12);
+    transform-origin: top left;
+    width: calc(100% / 1.12);
+}
   .topbar {
     display:flex; align-items:center; gap:16px; padding:6px 16px;
     border-bottom:1px solid #dadce0; height:56px;
