@@ -81,11 +81,11 @@
   .export svg { width:16px; height:16px; stroke:#1a73e8; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
 
   .filters { display:flex; align-items:center; gap:8px; margin:16px 0; flex-wrap:nowrap; }
-  .chip-group { display:inline-flex; border:1px solid #dadce0; border-radius:20px; overflow:hidden; background:#fff; }
+  .chip-group { display:inline-flex; border:1px solid #dadce0; border-radius:5px; overflow:hidden; background:#fff; }
   .chip-group .chip { border:0; border-radius:0; border-right:1px solid #dadce0; padding:7px 16px; }
   .chip-group .chip:last-child { border-right:0; }
   .chip {
-    border:1px solid #dadce0; border-radius:20px; padding:7px 16px; font-size:13px; color:#3c4043;
+    border:1px solid #dadce0; border-radius:5px; padding:7px 16px; font-size:13px; color:#3c4043;
     background:#fff; display:inline-flex; align-items:center; gap:6px; cursor:default; white-space:nowrap;
   }
   .chip.active { background:#e8f0fe; color:#1967d2; }
@@ -105,7 +105,7 @@
     gap:0;
     max-width:720px;
     border:1px solid #dadce0;
-    border-radius:8px;
+    border-radius:15px 0px 0px 0px;
     overflow:hidden;
   }
   .card {
@@ -131,11 +131,11 @@
     border:1px solid #9aa0a6; color:#9aa0a6; font-size:11px; display:flex; align-items:center; justify-content:center; }
   .card.on-clicks .q, .card.on-impr .q { border-color:rgba(255,255,255,.85); color:rgba(255,255,255,.85); }
 
-  .chart-wrap { border:1px solid #dadce0; border-radius:8px; padding:16px 8px 8px; margin-top:16px; position:relative; }
+  .chart-wrap { border:1px solid #dadce0; border-radius: 0px 0px 0px 15px; padding:16px 8px 8px; position:relative; }
   .chart-header { display:flex; justify-content:space-between; font-size:11px; color:#5f6368; padding:0 12px; }
   .chart-header .l { color:#5e97f6; }
   .chart-header .r { color:#7e57c2; }
-  .daily-pill { position:absolute; right:16px; top:-16px; padding:6px 14px; background:#fff; }
+  .daily-pill { position:absolute; right:0px; top:-100px; padding:6px 14px; background:#fff; }
 
   .tabs { display:flex; gap:32px; border-bottom:1px solid #dadce0; margin-top:32px; padding:0 4px; }
   .tab { padding:14px 4px; font-weight:500; font-size:13px; letter-spacing:0.6px; color:#5f6368; cursor:default; position:relative; }
